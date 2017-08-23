@@ -1,64 +1,82 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
+
 	<title>About Me</title>
+
+	<!-- clearing default styles prior to applying my own, from scratch, with the inclusion of speficied styles given in the instructions -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
+
 <body>
 	
+	<!-- header section is the first of 3 main structural sections -->
 	<section class="header">
 
-		<h1>
-			<strong class="name">Steven McCreery</strong>
-		</h1>
-		
-		<div class="navigation">
+		<!-- this initial "name" div will sit in-line with the about me section in the body section  -->
+		<div class="name">
+			<h1>
+				<strong>Steven McCreery</strong>
+			</h1>
+		</div>
 
-			<div class="right line">
-				<a href="">About</a>
+		<nav class="navigation">
+
+			<div class="right_line">
+				<a href="index.html">About</a>
 			</div>
 
-			<div class="right line">
-				<a href="">Portfolio</a>
+			<div class="right_line">
+				<a href="portfolio.html">Portfolio</a>
 			</div>
 
 			<div>
-				<a href="">Contact</a>
+				<a href="contact.html">Contact</a>
 			</div>
 
-		</div>
+		</nav>
 
 	</section>
 
-	<section>
+	<!-- body section is the second of 3 main structural sections. the main page contains "about me" information -->
+	<section class="body">
 		
 		<div>
-			<h2 class="teal text">
+			<h2 class="teal_text">
 				<strong>About Me</strong>
 			</h2>
 
-			<!-- <img src="my image"> -->
+			<img src="assets/images/picture.jpg" alt="A Professional Picture of Myself">
 
 			<p>text section 1</p>
 
 			<p>second text area</p>
-
+		
 		</div>
-		<h3 class="teal text">Connect with Me</h3>
 
-<!-- 		<img src="github">
+		<!-- the contact links below will be an aside subsection to the body section -->
+		<nav class="contact_links">
 
-		<img src="linkedin">
+			<h3 class="teal_text">Connect with Me</h3>
 
-		<img src="stackoverflow"> -->
+			<a href="https://github.com/Steven-McCreery" target="_blank"><img class="contact_image" src="assets/images/github-square.png" alt="GitHub Icon"></a>
 
-		<div>
-			
-		</div>
+			<a href="https://www.linkedin.com/in/steven-mccreery-b62b0b7a/" target="_blank"><img class="contact_image" src="assets/images/linkedin-512.png" alt="LinkedIn Icon"></a>
+
+			<a href="https://stackoverflow.com/users/8430822/steven-mccreery?tab=profile" target="_blank"><img class="contact_image" src="assets/images/so-icon.png" alt="Stack Overflow Icon"></a>
+		
+		</nav>
+		
 
 	</section>
 	
-	<section>
+	<!-- footer section is the third of 3 main structural sections -->
+	<section class="footer">
 		<p>&copy; Copyright 2017 Steven McCreery</p>
 	</section>
 
