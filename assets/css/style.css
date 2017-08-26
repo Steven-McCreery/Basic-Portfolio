@@ -98,7 +98,7 @@ body{
 }
 
 .my_picture{
-	margin: 10px 20px 20px 30px;
+	margin: 10px 30px 15px;
 	/*display: inline-block;*/
 	float: left;
 }
@@ -106,12 +106,28 @@ body{
 .p1{
 	/*float: left;*/
 	color: #777777;
-	margin: 0px 30px;
+	margin: 30px 30px 10px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	/*display: inline-block;*/
 }
 
 .p2{
+	/*float: left;*/
+	margin: 20px 30px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	/*display: inline-block;*/
+}
+
+.p3{
+	/*float: left;*/
+	margin: 20px 30px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	/*display: inline-block;*/
+}
+
+.p4{
 	/*float: left;*/
 	margin: 20px 30px;
 	color: #777777;
